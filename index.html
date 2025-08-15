@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data-Brains</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 56px;
+    }
+    .hero {
+      background: linear-gradient(135deg, #0d6efd, #6610f2);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Data-Brains</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Impulsamos tu negocio con datos inteligentes</h1>
+      <p class="lead">Soluciones de análisis y consultoría para decisiones estratégicas basadas en datos.</p>
+      <a href="#servicios" class="btn btn-light btn-lg">Ver servicios</a>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Nuestros Servicios</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Análisis de Datos</h5>
+              <p class="card-text">Transformamos tus datos en insights accionables para optimizar tus operaciones.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Visualización</h5>
+              <p class="card-text">Creamos dashboards claros y dinámicos para que tomes decisiones rápidas y efectivas.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Consultoría Estratégica</h5>
+              <p class="card-text">Te acompañamos en la implementación de soluciones basadas en inteligencia de datos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contáctanos</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" id="nombre" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo</label>
+          <input type="email" id="correo" class="form-control" required>
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea id="mensaje" rows="4" class="form-control" required></textarea>
+        </div>
+        <button class="btn btn-primary btn-lg w-100">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-3">
+    <p class="mb-0">&copy; 2025 Data-Brains. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
