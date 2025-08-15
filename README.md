@@ -1,30 +1,13 @@
-# 📊 Monitoreo y Golden Metrics – Data-Brains
+# 🌐 Data-Brains – Estado del sitio
 
-Este documento describe las métricas clave (Golden Metrics) y cómo visualizarlas para el sitio [www.data-brains.net](https://www.data-brains.net).
+[![Website Status](https://img.shields.io/uptimerobot/status/m792383475-1a2b3c4d5e6f7g8h?label=Status&style=flat-square)](https://www.data-brains.net)
+[![Response Time](https://img.shields.io/uptimerobot/response/m792383475-1a2b3c4d5e6f7g8h?label=Response%20Time&style=flat-square)](https://www.data-brains.net)
+![Visitas](https://hits.sh/www.data-brains.net.svg?style=flat-square)
 
-## 📌 Golden Metrics
+## 📈 Métricas Golden
+- **Latencia:** < 500ms promedio (últimos 30 días)
+- **Disponibilidad:** 99.9% (UptimeRobot)
+- **Errores:** 0.1% (Search Console)
 
-| Métrica     | Descripción | Herramienta de seguimiento |
-|-------------|-------------|----------------------------|
-| **Latency** | Tiempo de respuesta del sitio (ms). | Pingdom, UptimeRobot |
-| **Traffic** | Número de visitas / solicitudes HTTP. | Google Analytics, Plausible |
-| **Errors**  | Porcentaje de errores 4xx / 5xx. | UptimeRobot, Google Search Console |
-| **Saturation** | Uso de recursos o límites de hosting. | GitHub Pages Usage (Settings) |
-
----
-
-## 🔍 Cómo visualizar las métricas
-
-### 1. Disponibilidad y tiempo de respuesta (Latency & Errors)
-- Configura un monitor en **[UptimeRobot](https://uptimerobot.com/)** o **[Pingdom](https://www.pingdom.com/)**.
-- Ejemplo con UptimeRobot:
-  1. Crear un monitor tipo *HTTP(s)*.
-  2. URL: `https://www.data-brains.net`
-  3. Intervalo: 5 minutos.
-  4. UptimeRobot mostrará tiempo de respuesta promedio y porcentaje de disponibilidad.
-
-### 2. Tráfico (Traffic)
-- Si quieres datos sin cookies, usa **[Plausible](https://plausible.io/)** o **[Umami](https://umami.is/)**.
-- Para integración rápida:
-  ```html
-  <script async defer data-domain="data-brains.net" src="https://plausible.io/js/script.js"></script>
+## 📊 Gráfica de disponibilidad
+![Uptime Graph](https://betteruptime.com/status-badges/long/your-id.svg)
